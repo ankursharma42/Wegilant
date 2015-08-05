@@ -20,8 +20,10 @@ public class Product {
 	}
 	public void setArtifactId(String artifactId) {
 		this.artifactId = artifactId;
+		
 	}
 	public Product(String groupId,String artifactId){
 		this.groupId = groupId;
+		this.artifactId=artifactId;
 	}
 }
