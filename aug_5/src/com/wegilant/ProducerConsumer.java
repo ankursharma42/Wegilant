@@ -44,8 +44,8 @@ public class ProducerConsumer extends JFrame {
 		
 		JLabel consumerLabel = new JLabel("Consumer Panel");
 		
-		JTextArea produced = new JTextArea(50, 50);
-		JTextArea consumed = new JTextArea(50, 50);
+		JTextArea produced = new JTextArea(100, 100);
+		JTextArea consumed = new JTextArea(100, 100);
 		JButton buttonStart = new JButton("START");
 
 		JPanel producerConsumerPanel = new JPanel(new GridBagLayout());
